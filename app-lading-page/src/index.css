@@ -1,13 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	font-family: 'Bebas Neue', 'Lato', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+button {
+	outline: none;
+	border: none;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+.logo img {
+	width: 120px;
+}
+
+#App-header {
+	width: 100%;
+	height: 768px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('./img/banner.png');
+}
+
+.header {
+	font-family: 'Montserrat';
+	width: 900px;
+	position: absolute;
+	left: 25%;
+	top: 55%;
+	text-align: left;
+	transform: translate(-25%, -55%);
+}
+
+.header span {
+	font-family: 'Alfa Slab One';
+	color: #d61212;
+	border-bottom: 2px solid #442916;
+}
+
+.header .detail {
+	font-size: 23px;
+	color: #181818;
+}
+
+.header h3 {
+	font-family: 'Bebas Neue';
+	font-size: 1.6rem;
+	margin: 0px;
+	letter-spacing: 2px;
+	color: #442916;
+}
+
+.header h1 {
+	font-family: 'Alfa Slab One';
+	font-size: 4rem;
+	margin: 0px;
+	letter-spacing: 2px;
+	color: #3f2615;
 }
