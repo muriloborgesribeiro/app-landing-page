@@ -192,3 +192,97 @@ input {
 	border-radius: 5px;
 	color: #ffffff;
 }
+
+
+@media(max-width:620px) {
+	#contact form {
+		width: 90%;
+	}
+}
+
+@media(max-width:1190px) {
+	#App-header {
+		background-size: 1150px !important;
+	}
+	.header {
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+	.header h3 {
+		font-size: 1.5rem;
+	}
+	.header h1 {
+		font-size: 3rem;
+	}
+	.header .detail {
+		font-size: 1rem;
+	}
+	.pr-heading {
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+	.pr-heading h3 {
+		font-size: 1.5rem;
+	}
+	.pr-heading h1 {
+		font-size: 3rem;
+	}
+	.pr-heading .detail {
+		font-size: 1rem;
+	}
+	#products {
+		height: auto;
+	}
+	.a-container {
+		flex-wrap: wrap;
+	}
+	.a-box {
+		flex-grow: 1;
+	}
+	.a-b-img img {
+		object-fit: contain;
+	}
+}
+
+@media(max-width:970px) {
+	#App-header {
+		height: 650px;
+	}
+	.header {
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.pr-heading {
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.pr-btn {
+		margin-left: 20%;
+		margin-top: 20px;
+	}
+	#products {
+		margin-bottom: 100px;
+	}
+}
+
+@media(max-width:600px) {
+	.header {
+		width: 60%;
+	}
+	.pr-heading {
+		width: 60%;
+	}
+}
+
+@media(max-width:400px) {
+	.a-box {
+		width: 100%;
+		height: 400px;
+	}
+}
