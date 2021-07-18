@@ -14,18 +14,18 @@ function Form() {
 
 function handleSubmit(e){
     e.preventDefault();
-    let idx = localStorage.getItem('idx');
+    let idx = Number(localStorage.getItem('idx'));
 
     if (idx == null) {
         idx = 0;
     } else {
-        idx = idx = 1+1;
+        idx = idx+1;
     }
 
     const name = e.target.elements.name.value;
     const email = e.target.elements.email.value;
     localStorage.setItem('data/contact/' + idx, JSON.stringify({email: email, name: name }, null, '\t'));
-    localStorage.setItem('idx', 0);
+    localStorage.setItem('idx', idx);
     window.location.reload();
 }
 
