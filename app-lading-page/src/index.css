@@ -79,3 +79,37 @@ input {
 	letter-spacing: 2px;
 	color: #3f2615;
 }
+
+
+#contact form {
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+
+#contact form input {
+	width: 100%;
+	height: 50px;
+	margin: 5px 0px;
+	padding: 10px;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+#contact form ::placeholder {
+	color: #ffffff
+}
+
+#contact form input[type="submit"] {
+	height: 45px;
+	background: linear-gradient(90deg, #d61212 20%, #d61212);
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
